@@ -23,23 +23,10 @@ def cleanJsonFiles(directory,files):
         cleanJSONFile(directory + '/' + file,cleanFilePath,dirtyFilePath)
     return True
 
-# files = ['yc_app_events_2022_06_01.json','yc_app_events_2022_05_31.json','yc_app_events_2022_06_02.json']
-files = ['yc_app_events_2022_05_31.json','yc_app_events_2022_06_02.json']
+files = ['yc_app_events_2022_05_31.json','yc_app_events_2022_06_02.json','yc_app_events_2022_06_01.json']
 
 directory='/Users/mouayadkhashfeh/Downloads'
 
 cleanJsonFiles(directory,files)
-
-# Lines = file1.readlines()
-  
-# count = 0
-# # Strips the newline character
-# for line in Lines:
-#     count += 1
-#     isValid = validateJSON(line)
-#     if not isValid:
-#         print("line :",count, "=>",line)
-
-    
 
 

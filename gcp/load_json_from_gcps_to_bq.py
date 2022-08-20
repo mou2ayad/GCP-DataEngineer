@@ -1,10 +1,11 @@
 from google.cloud import bigquery
 
-crd_file='/Users/mouayadkhashfeh/Downloads/zeta-period-359422-95e8368cd3ce.json'
-# Construct a BigQuery client object.
-client = bigquery.Client.from_service_account_json(crd_file)
+# crd_file='/Users/mouayadkhashfeh/Downloads/zeta-period-359422-95e8368cd3ce.json'
 
-# TODO(developer): Set table_id to the ID of the table to create.
+# client = bigquery.Client.from_service_account_json(crd_file)
+
+client = bigquery.Client()
+
 table_id = "zeta-period-359422.bq_dataeng_assignment.yc_app_events"
 
 job_config = bigquery.LoadJobConfig(

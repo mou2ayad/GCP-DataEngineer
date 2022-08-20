@@ -1,7 +1,0 @@
-{"uuid":"ba84f725-d150-40a3-8e60-9d4df545bfbe","created_at":"2022-05-31T23:09:17.805Z","data":{"site_id":1001},"meta":{"site_id":1001},"type":"html_vacancy_search"}
-{"uuid":"a4124302-0ba6-470a-aad5-c251c758b577","created_at":"2022-05-31T23:41:23.350Z","data":{"site_id":102},"meta":{"site_id":1001},"type":"html_vacancy_search"}
-{"uuid":"4d37a589-45ea-4110-9bfb-111ab7c5c8b2","created_at":"2022-05-31T23:02:40.965Z","data":{"site_id":14},"meta":{"site_id":1001},"type":"html_vacancy_search"}
-{"uuid":"d4095359-81b9-4684-9b77-4905d326c16c","created_at":"2022-05-31T22:27:00.384Z","data":{"site_id":17},"meta":{"site_id":1001},"type":"html_vacancy_search"}
-{"uuid":"e95866d1-3c91-4af3-8ffa-816206cb586e","created_at":"2022-05-31T22:29:20.584Z","data":{"enabled_features":["remove_job_opening_summary","limit_macro_job_openings"],"site_id":1,"email":"\u003cREMOVED\u003e","job_reaction_id":36933296},"meta":{"site_id":1001},"type":"candidate_failed_sign_in"}
-{"uuid":"357002e4-df25-4945-afd4-2ffd144ee7b9","created_at":"2022-05-31T21:57:00.877Z","data":{"mailing_id":2487499,"candidate_uuid":"d13d47d6f520b5113a8fd5cf507e86fcf6f15700beaf9a6c54e5ec91dfb76674","job_opening_id":2406293},"meta":{"site_id":1001},"type":"job_opening_mailing_sent_to_cdd"}
-{"uuid":"68e2f296-50f6-4eff-8fa4-d7739ff415da","created_at":"2022-05-31T22:25:10.789Z","data":{"site_id":601},"meta":{"site_id":1001},"type":"html_vacancy_search"}
