@@ -1,0 +1,29 @@
+{ 
+   "BigQuery Schema": [
+      {
+         "name":"uuid",
+         "type":"STRING",
+         "mode":"REQUIRED"
+      },
+      {
+         "name":"created_at",
+         "type":"TIMESTAMP",
+         "mode":"REQUIRED"
+      },
+      {
+         "name":"data",
+         "type":"JSON",
+         "mode":"NULLABLE"
+      },
+      {
+         "name":"meta",
+         "type":"JSON",
+         "mode":"NULLABLE"
+      },
+      {
+         "name":"type",
+         "type":"STRING",
+         "mode":"REQUIRED"
+      }
+   ]
+}
