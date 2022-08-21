@@ -180,7 +180,7 @@ these python scripts can be executed in the local machine or in Cloud Shell, to 
 
 ### 1.Creating publisher to publish a single message to pub/sub:
 
-the script is added to [publisher.py](../gcp/publisher.py)
+the script is added to [publisher.py](gcp/publisher.py)
 
 ``` python
 from google.cloud import pubsub_v1
@@ -203,7 +203,7 @@ print(f'published message id {future.result()}')
 
 ### 2. Creating publisher to publish Newline Delimited Json lines to the pub/sub:
 
-the script is added to [json_file_publisher.py](../gcp/json_file_publisher.py)
+the script is added to [json_file_publisher.py](gcp/json_file_publisher.py)
 
 ``` python
 import json
@@ -241,3 +241,5 @@ directory='/Users/mouayadkhashfeh/Downloads'
 publishFilesToPubSub(directory,files)
 
 ```
+
+### [Here](metrics/README.md) is metrics documentation 
